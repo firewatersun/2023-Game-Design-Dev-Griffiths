@@ -43,14 +43,442 @@
   <ItemGroup>
      <Compile Include="Assets\Scenes\Week 1\DisappearOnTriggerEnter.cs" />
      <Compile Include="Assets\Scenes\Week 1\TestScript.cs" />
+     <Compile Include="Assets\Scenes\Week 2\Week2PlayerScript.cs" />
      <Compile Include="Assets\Scenes\Week 1\GameStats.cs" />
+     <Compile Include="Assets\Scenes\Week 3\Week3PlayerScript.cs" />
      <Compile Include="Assets\Scenes\Week 1\test.cs" />
-     <Compile Include="Assets\Week2PlayerScript.cs" />
      <Folder Include="Assets" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\ReferenceUnlit.shader" />
+     <None Include="Library\PackageCache\com.unity.settings-manager@1.0.3\package.json" />
+     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\guihelp.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Strata\Ridge.hlsl" />
+     <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.test-framework@1.1.31" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Strata\Voronoi.hlsl" />
+     <None Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\NormalPreview.shader" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Generated\NoiseFillFbm.shader" />
+     <Folder Include="Library\PackageCache\com.unity.modules.imgui@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\plastic-gui.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.es.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.ai@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.animation.rigging@1.1.1\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\differences.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\commontypes.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.4" />
+     <Folder Include="Library\PackageCache\com.unity.modules.animation@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\ThirdPartyLicenses.txt" />
+     <None Include="Library\PackageCache\com.unity.ugui@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.xr@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.2d.tilemap@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Icons\PaintVertexColors" />
+     <None Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\basecommands.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\basecommands.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\DiffuseVertexColor.shader" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Implementation\RidgeImpl.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\semantic.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3" />
+     <Folder Include="Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3\Tests" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Implementation\BillowImpl.hlsl" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\None\Voronoi.hlsl" />
+     <None Include="Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3\package.json" />
      <Folder Include="Assets\Physics Materials#" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\TwistHeight.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\clientcommon.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources" />
+     <Folder Include="Library\PackageCache\com.unity.2d.common@6.0.6\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Tools\ShapeTool\on" />
+     <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\package.json" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\LineBillboard.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\guihelp.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Graphics" />
+     <None Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\xdiff.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\configurehelper.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.burst@1.6.6\Tests" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\VertexPicker.shader" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Shader" />
+     <None Include="Library\PackageCache\com.unity.timeline@1.6.4\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\TexelValidity.shader" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Strata\Perlin.hlsl" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\configurehelper.en.txt" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\DiffuseTextureBlend.shader" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\LineBillboardMetal.shader" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.animation.rigging@1.1.1" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Shader\Hidden" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Fbm\Value.hlsl" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.8.9\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0" />
+     <Folder Include="Library\PackageCache\com.autodesk.fbx@4.1.2\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.17\ValidationConfig.json" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\basecommands.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.es.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM" />
+     <Folder Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\None" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Resources\Textures" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Strata" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Fbm\Voronoi.hlsl" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\ScrollHighlight.shader" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseFill.shader" />
+     <Folder Include="Library\PackageCache\com.unity.2d.animation@7.0.9\Tests" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\differences.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.autodesk.fbx@4.1.2\Tests\Editor" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\UnlitSolidColor.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\plastic-gui.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\basecommands.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.timeline@1.6.4\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\xdiff.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\xdiff.ko.txt" />
+     <None Include="Library\PackageCache\com.autodesk.fbx@4.1.2\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\clientcommon.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.2d.path@5.0.2" />
+     <Folder Include="Library\PackageCache\com.unity.feature.worldbuilding@1.0.1" />
+     <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\HDRP" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\basecommands.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Implementation\PerlinImpl.hlsl" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData.json" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\guihelp.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.feature.development@1.0.1" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\TransparentOverlay.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\differences.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\configurehelper.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\UnlitVertexColor.shader" />
+     <Folder Include="Library\PackageCache\com.unity.2d.animation@7.0.9\IK" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\semantic.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.burst@1.6.6" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.17\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\workspaceserver.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\SedimentSplat.shader" />
+     <Folder Include="Library\PackageCache\com.unity.feature.2d@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Fbm\Perlin.hlsl" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Noise.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\plastic-gui.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization" />
+     <Folder Include="Library\PackageCache\com.unity.2d.common@6.0.6" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\URP\URP_TerrainVisualizationLitPass.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm.en.txt" />
+     <None Include="Library\PackageCache\com.unity.feature.development@1.0.1\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\commontypes.en.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\package.json" />
+     <Folder Include="Library\PackageCache\com.autodesk.fbx@4.1.2" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\commontypes.es.txt" />
+     <Folder Include="Assets\ProBuilder Data" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Tools\PolyShape" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Resources\Cursors" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\PinchHeight.shader" />
+     <None Include="Library\PackageCache\com.unity.ide.rider@3.0.18\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\i3.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Generated\NoiseFillNone.shader" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\EdgePicker.shader" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Resources\Materials" />
+     <None Include="Library\PackageCache\com.unity.modules.video@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Templates" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\SmoothHeight.shader" />
+     <None Include="Library\PackageCache\com.unity.test-framework@1.1.31\package.json" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\SharpenPeaks.shader" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\VertexShader.shader" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.physics@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Fbm" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\NoiseCommon.hlsl" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\basecommands.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.vr@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\URP\URP_TerrainVisualizationInput.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\UVEditor" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\workspaceserver.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\None\Billow.hlsl" />
+     <None Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2\package.json" />
+     <Folder Include="Assets\Scenes\Week 3" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\PaintAspect.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.en.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\binmergetool.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\workspaceserver.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.wind@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\binmergetool.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Generated" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\differences.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\binmergetool.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.uielements@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\TerrainToolHeightBlit.shader" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Upgrade\AssetIdRemap-4_0_0.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\configurehelper.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.settings-manager@1.0.3" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.2d.common@6.0.6\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\semantic.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Resources" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\workspaceserver.en.txt" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.17\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.8.9\license.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.wind@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\SimpleHeightBlend.shader" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\ExampleAssets\NoiseSettings" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\clientcommon.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\SmudgeHeight.shader" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\FacePicker.shader" />
+     <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0\Tests" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\xdiff.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\ContrastHeight.shader" />
+     <None Include="Library\PackageCache\com.unity.modules.umbra@1.0.0\package.json" />
      <Folder Include="Assets\Scenes\Week 2" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\SmoothingPreview.shader" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Textures" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\SetExactHeight.shader" />
+     <Folder Include="Library\PackageCache\com.unity.2d.sprite@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\i3.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\PaintMaterialBrushPreview.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\guihelp.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.ui@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\MeshUtility.shader" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Implementation" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\ExampleAssets" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.mathematics@1.2.6" />
+     <Folder Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.7" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\FileSystemWatcherLicense.txt" />
+     <None Include="Library\PackageCache\com.unity.2d.path@5.0.2\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.4\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2\Tests" />
+     <None Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Shader\Hidden\Overlay.shader" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Gizmos" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Gizmos" />
+     <None Include="Library\PackageCache\com.unity.modules.audio@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\clientcommon.en.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.physics@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\binmergetool.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\i3.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\commontypes.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\differences.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\ProBuilderCG.cginc" />
+     <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\plastic-gui.es.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\TerraceErosion.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\binmergetool.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Tools\ShapeTool" />
+     <None Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\TerrainTools.hlsl" />
+     <None Include="Library\PackageCache\com.unity.modules.uielementsnative@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\BrushPreview.shader" />
+     <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.18" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Icons\PaintPrefabs" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\NoisePreview.shader" />
+     <Folder Include="Library\PackageCache\com.unity.2d.tilemap@1.0.0\Tests" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Modes" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Generated\NoiseFillStrata.shader" />
+     <None Include="Library\PackageCache\com.unity.feature.2d@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.4\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\binmergetool.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\HDRP\HDRP_TerrainVisualizationTemplate.hlsl" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\None\Value.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.2d.animation@7.0.9" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Toolbar\Background" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Toolbar" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\ValidationConfig.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\PaintConcavity.shader" />
+     <Folder Include="Library\PackageCache\com.unity.ide.vscode@1.2.5" />
+     <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\StandardVertexColor.shader" />
+     <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\Builtin" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_Properties.cginc" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\CloneBrush.shader" />
+     <None Include="Library\PackageCache\com.unity.feature.characters-animation@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\URP" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Fbm\Billow.hlsl" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Generated\NoiseBlitNone.shader" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\PointBillboard.shader" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\NoiseImpl.hlsl" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\xdiff.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\configurehelper.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Strata\Billow.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.modules.umbra@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Icons\Toolbar" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\clientcommon.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\semantic.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib" />
+     <None Include="Library\PackageCache\com.unity.modules.director@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\ValidationConfig.json" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Generated\NoiseBlitStrata.shader" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders" />
+     <Folder Include="Library\PackageCache\com.unity.modules.director@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.audio@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Content" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\PaintHeight.shader" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Scripts" />
+     <None Include="Library\PackageCache\com.unity.modules.terrain@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\commontypes.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.8.9\package.json" />
+     <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Scene" />
+     <Folder Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.17" />
+     <None Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\commontypes.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content" />
+     <Folder Include="Library\PackageCache\com.unity.formats.fbx@4.1.3" />
+     <Folder Include="Library\PackageCache\com.unity.modules.video@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Preview.shader" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Strata\Value.hlsl" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\None\Ridge.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.modules.ai@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\configurehelper.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData_Assets.json" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\External" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\None\Perlin.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.2d.tilemap@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.6\package.json" />
+     <None Include="Library\PackageCache\com.autodesk.fbx@4.1.2\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Upgrade" />
+     <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\Builtin\BLT_TerrainVisualizationCommon.cginc" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Package Resources" />
      <Folder Include="Assets\Scenes" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Generated\NoiseBlitFbm.shader" />
+     <Folder Include="Library\PackageCache\com.unity.modules.terrain@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.4\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Tests" />
+     <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.feature.characters-animation@1.0.0" />
+     <Folder Include="Library\PackageCache\com.autodesk.fbx@4.1.2\Tests\Runtime" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Fbm\Ridge.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\AssetIdRemapUtility" />
+     <None Include="Library\PackageCache\com.unity.2d.animation@7.0.9\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.uielementsnative@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Tools" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Material" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\guihelp.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\differences.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\workspaceserver.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.feature.worldbuilding@1.0.1\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\PaintTexture.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\clientcommon.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseHeightTool.shader" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Implementation\ValueImpl.hlsl" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\i3.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Icons" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\HDRP\HDRP_TerrainVisualizationData.hlsl" />
+     <None Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.xml" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\SelectionPicker.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.7\package.json" />
      <Folder Include="Assets\Scenes\Week 1" />
+     <None Include="Library\PackageCache\com.unity.polybrush@1.1.2\Content\Shader\Hidden\VertexBillboard.shader" />
+     <None Include="Library\PackageCache\com.unity.polybrush@1.1.2\package.json" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Implementation\VoronoiImpl.hlsl" />
+     <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Material\Textures" />
+     <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\plastic-gui.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.burst@1.6.6\package.json" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\FaceHighlight.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\i3.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\workspaceserver.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\xdiff.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Presets\Noise" />
+     <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Presets" />
+     <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Templates" />
+     <Folder Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.6" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\SlopeFlatten.shader" />
+     <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.6\Tests" />
+     <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\HideVertices.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\semantic.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\i3.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.7\Tests" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\guihelp.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\Visualization\Builtin\BLT_TerrainVisualization.shader" />
+     <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\package.json" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -297,12 +725,6 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Burst.Unsafe">
      <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
      </Reference>
@@ -317,6 +739,12 @@
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Rocks">
      <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -690,146 +1118,256 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.IK.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Common.Runtime">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Tilemap.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Psdimporter.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.IK.Runtime">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.SpriteShape.Runtime">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.PixelPerfect">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.PixelPerfect.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Path.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Tilemap.Extras">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Animation.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Animation.Runtime">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEngineBridge.001">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Burst">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Common.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="PsdPlugin">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Burst.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEditorBridge.001">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.SpriteShape.Editor">
-     <HintPath>C:\Unity Projects\2023-Game-Design-Dev-Griffiths\Griffiths BScH Game Design N Development\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{8619abef-2ea0-874f-a489-4ff94a5fa9a5}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{7c1c97a2-24b7-99bf-5a84-bd95f147e359}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
+      <Project>{de0c2e4a-73bf-640b-a2f1-57d304ea5fba}</Project>
+      <Name>Unity.2D.PixelPerfect</Name>
+    </ProjectReference>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{d0eaea68-aeba-60b9-8d79-0e4cbae80cab}</Project>
+      <Name>PsdPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{ec97fa32-be27-c631-8875-3a2d2375b0d1}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{8adf8d30-634b-57c1-dc41-d43757e18398}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{098acc0a-8d62-a64d-be4f-3d59f586d0b5}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Fbx.Editor.csproj">
+      <Project>{53f01b70-4add-a670-a283-39bbd35700d7}</Project>
+      <Name>Unity.Formats.Fbx.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{71629827-42e7-51df-f34b-ba4554c7d104}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Editor.csproj">
+      <Project>{4b28a1d1-1cb0-c068-3783-c7f43d902f1c}</Project>
+      <Name>Unity.2D.IK.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{18de24b5-bab4-b2d5-caa3-6ad1f43102d8}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{9ad21ea5-2ead-a64b-600b-51679b978f9c}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
+      <Project>{8fc87511-e8a3-646d-151f-e03bdf2af19b}</Project>
+      <Name>Unity.2D.Path.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{ff714ec9-fa80-9063-a849-a8855d118a29}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{f9f8a1e8-be2a-2f31-0d4b-87f7f2be8fff}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{eed671a0-c026-04e2-f661-b3fd5af5ec23}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autodesk.Fbx.csproj">
+      <Project>{f71da59e-33b0-5814-a710-bbba8ab5e065}</Project>
+      <Name>Autodesk.Fbx</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{b1b308e7-d335-96cf-55a3-6551c7a96109}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{0fb54e9a-0d2e-1420-8b41-69b3bd709e96}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
+      <Project>{eeb65684-75e1-ccc3-489f-42acd1177add}</Project>
+      <Name>Unity.2D.IK.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Fbx.Runtime.csproj">
+      <Project>{575b1805-5b87-35a1-7623-c99067cf5b50}</Project>
+      <Name>Unity.Formats.Fbx.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{21b1941a-e6e2-056c-457b-1c6bcb66da06}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{2aca7fda-6ae7-b7ea-b477-8e18b2a9ae0f}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{5e0e504a-e2bb-221a-ad6d-83532dccb865}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{4e1bdc16-de16-7445-39ef-6577a98697fe}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+      <Project>{4b4c9ac8-68d8-0a2e-0c53-1a62305442ac}</Project>
+      <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{983c97d5-0ced-90eb-0d78-66162034c1c7}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{3e734aa9-41ef-584d-2a05-a5d6c5cc9c49}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{b9cd7ff1-972e-bfdd-533a-34a424c766f4}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autodesk.Fbx.Editor.csproj">
+      <Project>{b2db977f-7ccd-9d3c-227b-5b24787e05bd}</Project>
+      <Name>Autodesk.Fbx.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{6b86c147-2dbd-ab14-e01b-96d34414c569}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{10743795-1c1b-3d93-ca1a-e7f6892360ce}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{d8d94659-173b-9a66-b0d4-03697022f4f2}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{99426d1d-851e-562b-240a-5188f0edc5c0}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{f3845822-12fa-1ae2-a5e7-f74c51bf1d54}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
+      <Project>{930e4900-8d5e-c2de-7314-1fcc8aab2aa2}</Project>
+      <Name>Unity.2D.Psdimporter.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{212e95ae-2a58-a5fb-d522-c16ffb3ee735}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{540f3947-7761-09eb-1909-1def77f9c6a7}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{c79e8887-3eeb-b6b1-b2eb-c55c5b4b47db}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{5c3dde5e-f5f2-df5c-8482-8c3087f0ba13}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{5695dedf-a3cd-4fb8-51e0-e9756db645e3}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Polybrush.Editor.csproj">
+      <Project>{fe63afd2-ada0-b859-f2cd-1c030eaea1de}</Project>
+      <Name>Unity.Polybrush.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Polybrush.csproj">
+      <Project>{03b25bee-3ff4-edb7-8a43-87f2f697e1e8}</Project>
+      <Name>Unity.Polybrush</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{7fa42176-7852-3ea8-f1e6-49354d629f42}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{56c0166b-1d55-0d9d-9f3c-49c18e7ff286}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TerrainTools.csproj">
+      <Project>{c469d11a-a8b3-397a-1833-466896427a62}</Project>
+      <Name>Unity.TerrainTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{b6084fa9-601a-7713-8272-0d907775518d}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{6f259960-27bf-07e1-f8f1-c6dd441141b5}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{6f753a2f-4923-16c7-04a5-3af6038eeabc}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TerrainTools.Editor.csproj">
+      <Project>{5effed7c-53b5-b841-4592-8b1e0cb7b47b}</Project>
+      <Name>Unity.TerrainTools.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
+      <Project>{b60f842b-8eec-8bae-2f4a-e57128e15ece}</Project>
+      <Name>Unity.2D.Animation.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
+      <Project>{f4814207-7d5e-cbd3-d5bb-cc89a2a001e4}</Project>
+      <Name>Unity.2D.PixelPerfect.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{2622f009-35a9-858f-35b5-3bc51fc74c6b}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
+      <Project>{052c5c81-91a6-bd90-ac1c-71855147b1aa}</Project>
+      <Name>Unity.2D.Common.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
+      <Project>{150a1f7e-259b-ad55-4904-54da6fcf9c29}</Project>
+      <Name>Unity.2D.SpriteShape.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{88f494d4-d0a1-0cf0-3128-b65982e4288b}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{2c84dbd7-afff-496e-86ee-3735028a031f}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{72bd5765-2301-bf7c-da59-4ae9ad4dadee}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{d3296a70-b552-cd03-d5ef-0e5a0f202024}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.csproj">
+      <Project>{0b47bf7f-a6cf-fbf7-c963-f9d808613bf8}</Project>
+      <Name>Unity.Animation.Rigging</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{6a8b0429-b03c-341c-3ce3-bbd0adfbea10}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.Editor.csproj">
+      <Project>{28572872-3788-0de8-cfb7-e8b992596c50}</Project>
+      <Name>Unity.Animation.Rigging.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

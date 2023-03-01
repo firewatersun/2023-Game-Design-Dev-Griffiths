@@ -25,7 +25,7 @@ public float acceleration;
         rb.AddForce(new Vector2 (acceleration * horizontal, 0));
         
         //if spacebar is pressed, then the player jumps
-        if (Input.GetKeyDown(KeyCode.Space)||Input.GetAxis("Vertical")>0)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
      

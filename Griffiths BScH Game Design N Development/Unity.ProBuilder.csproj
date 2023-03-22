@@ -113,8 +113,8 @@
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\InternalUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Shapes\Torus.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\Normal.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\Entity.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\EdgeLookup.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\Entity.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\Bounds2D.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\MeshOperations\ExtrudeElements.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\HandleUtility.cs" />
@@ -148,8 +148,8 @@
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\MeshOperations\AppendElements.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\SelectionModifierBehaviour.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Shapes\Arch.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\SelectionPickerRendererHDRP.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\MeshHandle.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Core\SelectionPickerRendererHDRP.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\MeshOperations\DeleteElements.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\MeshOperations\Subdivision.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.3\Runtime\Shapes\Prism.cs" />

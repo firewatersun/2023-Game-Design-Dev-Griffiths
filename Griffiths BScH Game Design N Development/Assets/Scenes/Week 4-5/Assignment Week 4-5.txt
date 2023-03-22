@@ -1,0 +1,7 @@
+STEALTH GAME
+
+Create a level in Probuilder
+Bake a Navmesh in/on that level
+Create a player that is controlled using the Navmesh (suggest using a raycast to detect a mousehit for example)
+Create enemies that will chase the player if the player gets too close, but if they do not detect the player, they will return to a patrol route
+Create an end goal that the player will reach to win the game

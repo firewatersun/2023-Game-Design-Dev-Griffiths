@@ -44,9 +44,13 @@
      <Compile Include="Assets\Scenes\Week 1\DisappearOnTriggerEnter.cs" />
      <Compile Include="Assets\Scenes\Week 1\TestScript.cs" />
      <Compile Include="Assets\Scenes\Week 2\Week2PlayerScript.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\NavMeshAgentEnemy.cs" />
      <Compile Include="Assets\Scenes\Week 1\GameStats.cs" />
      <Compile Include="Assets\Scenes\Week 3\Week3PlayerScript.cs" />
      <Compile Include="Assets\Scenes\Week 1\test.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\NavMeshAgentPlayerScript.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\ProjectileScript.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\NavMeshPatrol.cs" />
      <Folder Include="Assets" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.ja.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.zh-Hans.txt" />
@@ -147,6 +151,7 @@
      <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseFill.shader" />
      <Folder Include="Library\PackageCache\com.unity.2d.animation@7.0.9\Tests" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\differences.zh-Hant.txt" />
+     <Folder Include="Assets\Scenes\Week 4-5\Navmesh and Navigation" />
      <Folder Include="Library\PackageCache\com.autodesk.fbx@4.1.2\Tests\Editor" />
      <None Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Shader\UnlitSolidColor.shader" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\plastic-gui.ko.txt" />
@@ -264,6 +269,7 @@
      <None Include="Library\PackageCache\com.unity.2d.common@6.0.6\package.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\semantic.ko.txt" />
      <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Resources" />
+     <None Include="Assets\Scenes\Week 4-5\Assignment Week 4-5.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\workspaceserver.en.txt" />
      <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.17\ValidationExceptions.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.zh-Hant.txt" />
@@ -290,6 +296,7 @@
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm.ko.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\guihelp.zh-Hans.txt" />
      <Folder Include="Library\PackageCache\com.unity.modules.ui@1.0.0" />
+     <Folder Include="Assets\Scenes\Week 4-5" />
      <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\MeshUtility.shader" />
      <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\NoiseLib\Implementation" />
      <Folder Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\ExampleAssets" />
@@ -348,6 +355,7 @@
      <Folder Include="Library\PackageCache\com.unity.probuilder@5.0.3\Content\Icons\Toolbar" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\ValidationConfig.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.ja.txt" />
+     <Folder Include="Assets\Scenes\Week 4-5\Materials" />
      <None Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Shaders\PaintConcavity.shader" />
      <Folder Include="Library\PackageCache\com.unity.ide.vscode@1.2.5" />
      <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
@@ -1200,6 +1208,14 @@
       <Project>{eeb65684-75e1-ccc3-489f-42acd1177add}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{6a8b0429-b03c-341c-3ce3-bbd0adfbea10}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{d3296a70-b552-cd03-d5ef-0e5a0f202024}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Formats.Fbx.Runtime.csproj">
       <Project>{575b1805-5b87-35a1-7623-c99067cf5b50}</Project>
       <Name>Unity.Formats.Fbx.Runtime</Name>
@@ -1211,6 +1227,10 @@
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
       <Project>{2aca7fda-6ae7-b7ea-b477-8e18b2a9ae0f}</Project>
       <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.Editor.csproj">
+      <Project>{28572872-3788-0de8-cfb7-e8b992596c50}</Project>
+      <Name>Unity.Animation.Rigging.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{5e0e504a-e2bb-221a-ad6d-83532dccb865}</Project>
@@ -1304,6 +1324,10 @@
       <Project>{c469d11a-a8b3-397a-1833-466896427a62}</Project>
       <Name>Unity.TerrainTools</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.csproj">
+      <Project>{0b47bf7f-a6cf-fbf7-c963-f9d808613bf8}</Project>
+      <Name>Unity.Animation.Rigging</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{b6084fa9-601a-7713-8272-0d907775518d}</Project>
       <Name>Unity.Burst</Name>
@@ -1351,22 +1375,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{72bd5765-2301-bf7c-da59-4ae9ad4dadee}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{d3296a70-b552-cd03-d5ef-0e5a0f202024}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Animation.Rigging.csproj">
-      <Project>{0b47bf7f-a6cf-fbf7-c963-f9d808613bf8}</Project>
-      <Name>Unity.Animation.Rigging</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{6a8b0429-b03c-341c-3ce3-bbd0adfbea10}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Animation.Rigging.Editor.csproj">
-      <Project>{28572872-3788-0de8-cfb7-e8b992596c50}</Project>
-      <Name>Unity.Animation.Rigging.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

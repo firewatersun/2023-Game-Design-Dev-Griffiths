@@ -44,9 +44,13 @@
      <Compile Include="Assets\Scenes\Week 1\DisappearOnTriggerEnter.cs" />
      <Compile Include="Assets\Scenes\Week 1\TestScript.cs" />
      <Compile Include="Assets\Scenes\Week 2\Week2PlayerScript.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\NavMeshAgentEnemy.cs" />
      <Compile Include="Assets\Scenes\Week 1\GameStats.cs" />
      <Compile Include="Assets\Scenes\Week 3\Week3PlayerScript.cs" />
      <Compile Include="Assets\Scenes\Week 1\test.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\NavMeshAgentPlayerScript.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\ProjectileScript.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\NavMeshPatrol.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>
@@ -658,6 +662,10 @@
       <Project>{10437ec7-46dc-84d2-e10e-c94942544c1c}</Project>
       <Name>Unity.2D.IK.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{5cde9c93-e7ae-d05e-ec7f-96a3bd68f489}</Project>
+      <Name>Cinemachine.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Formats.Fbx.Runtime.Player.csproj">
       <Project>{2c2fc717-549d-744c-1e9f-cff73e3094be}</Project>
       <Name>Unity.Formats.Fbx.Runtime.Player</Name>
@@ -694,6 +702,10 @@
       <Project>{e5376325-4f31-cf9a-6371-00e6b14907de}</Project>
       <Name>Unity.TerrainTools.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.Player.csproj">
+      <Project>{aee9f852-193f-c704-c4bf-f238ae3d5d46}</Project>
+      <Name>Unity.Animation.Rigging.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{3acf269c-6496-2c81-7ebb-dd4d08d864b2}</Project>
       <Name>Unity.Burst.Player</Name>
@@ -713,14 +725,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{04c3bf0f-4815-9b85-8bce-8e374968e241}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Animation.Rigging.Player.csproj">
-      <Project>{aee9f852-193f-c704-c4bf-f238ae3d5d46}</Project>
-      <Name>Unity.Animation.Rigging.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.Player.csproj">
-      <Project>{5cde9c93-e7ae-d05e-ec7f-96a3bd68f489}</Project>
-      <Name>Cinemachine.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

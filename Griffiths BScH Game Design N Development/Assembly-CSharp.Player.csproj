@@ -44,13 +44,13 @@
      <Compile Include="Assets\Scenes\Week 1\DisappearOnTriggerEnter.cs" />
      <Compile Include="Assets\Scenes\Week 1\TestScript.cs" />
      <Compile Include="Assets\Scenes\Week 2\Week2PlayerScript.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\ProjectileScript.cs" />
      <Compile Include="Assets\Scenes\Week 4-5\NavMeshAgentEnemy.cs" />
+     <Compile Include="Assets\Scenes\Week 4-5\NavMeshPatrol.cs" />
      <Compile Include="Assets\Scenes\Week 1\GameStats.cs" />
      <Compile Include="Assets\Scenes\Week 3\Week3PlayerScript.cs" />
-     <Compile Include="Assets\Scenes\Week 1\test.cs" />
      <Compile Include="Assets\Scenes\Week 4-5\NavMeshAgentPlayerScript.cs" />
-     <Compile Include="Assets\Scenes\Week 4-5\ProjectileScript.cs" />
-     <Compile Include="Assets\Scenes\Week 4-5\NavMeshPatrol.cs" />
+     <Compile Include="Assets\Scenes\Week 1\test.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>

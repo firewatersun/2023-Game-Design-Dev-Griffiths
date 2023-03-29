@@ -2951,6 +2951,9 @@ MonoBehaviour:
   - {fileID: 1202678980}
   - {fileID: 872059789}
   - {fileID: 1095319830}
+  player: {fileID: 0}
+  detectRadius: 5
+  playerDetected: 0
 --- !u!1 &1202678976
 GameObject:
   m_ObjectHideFlags: 0

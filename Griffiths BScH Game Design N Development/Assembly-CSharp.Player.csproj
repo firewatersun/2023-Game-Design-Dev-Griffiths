@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scenes\Week 1\TestScript.cs" />
      <Compile Include="Assets\Scenes\Week 2\Week2PlayerScript.cs" />
      <Compile Include="Assets\Scenes\Week 4-5\ProjectileScript.cs" />
+     <Compile Include="Assets\Scenes\Week 6\SphereBehaviour.cs" />
      <Compile Include="Assets\Scenes\Week 4-5\NavMeshAgentEnemy.cs" />
      <Compile Include="Assets\Scenes\Week 4-5\NavMeshPatrol.cs" />
      <Compile Include="Assets\Scenes\Week 1\GameStats.cs" />

@@ -1,0 +1,15 @@
+Create a game along the theme "Dredge"
+
+You can make the game based on the actual game Dredge, or your own interpretation of the theme
+
+
+The game must have the following:
+1) Use of Navmesh
+2) Use of Probuilder
+3) Enemies or NPCs with state machines
+4) Use of raycasts to detect things (can be player, enemies, pathfinding etc)
+5) Use of animations/animator state machines
+6) Use of triggers/collision detection to activate or detect physics or motion
+7) Use of UI to denote score or other player-relevant information
+8) High Concept document explaining an elevator pitch for the game (imagine a Steam description, with pictures etc) references to any assets used from external sources
+9) 30 second to 1 minute trailer/gameplay video
